@@ -25,6 +25,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		24A5045619150220005C46F9 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24A5045419150220005C46F9 /* GameScene.cpp */; };
 		24A5045919150DC1005C46F9 /* Grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24A5045719150DC1005C46F9 /* Grid.cpp */; };
+		24D1FD24191CFA2B0038B140 /* AutoPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D1FD22191CFA2B0038B140 /* AutoPlayer.cpp */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
@@ -229,6 +230,8 @@
 		24A5045519150220005C46F9 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = ../Classes/GameScene.h; sourceTree = "<group>"; };
 		24A5045719150DC1005C46F9 /* Grid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Grid.cpp; path = ../Classes/Grid.cpp; sourceTree = "<group>"; };
 		24A5045819150DC1005C46F9 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Grid.h; path = ../Classes/Grid.h; sourceTree = "<group>"; };
+		24D1FD22191CFA2B0038B140 /* AutoPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AutoPlayer.cpp; path = ../Classes/AutoPlayer.cpp; sourceTree = "<group>"; };
+		24D1FD23191CFA2B0038B140 /* AutoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoPlayer.h; path = ../Classes/AutoPlayer.h; sourceTree = "<group>"; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -344,6 +347,8 @@
 				24A5045519150220005C46F9 /* GameScene.h */,
 				24A5045719150DC1005C46F9 /* Grid.cpp */,
 				24A5045819150DC1005C46F9 /* Grid.h */,
+				24D1FD22191CFA2B0038B140 /* AutoPlayer.cpp */,
+				24D1FD23191CFA2B0038B140 /* AutoPlayer.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -677,6 +682,7 @@
 				24A5045919150DC1005C46F9 /* Grid.cpp in Sources */,
 				24A5045619150220005C46F9 /* GameScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				24D1FD24191CFA2B0038B140 /* AutoPlayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

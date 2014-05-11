@@ -10,6 +10,7 @@
 #define __cross_circle__Grid__
 
 #include "cocos2d.h"
+#include "GameScene.h"
 using namespace cocos2d;
 
 class Grid
@@ -24,8 +25,16 @@ public:
     };
     static Grid* create(int x, int y);
     bool init(int x, int y);
-    void initPosition(int x, int y);
+    bool isTouched();
+    bool touch(Color3B);
+    const int getX();
+    const int getY();
+    bool canTouch();
 private:
+    void initPosition(int x, int y);
+    void enableTouch();
+    
+    bool _touched;
     int _x;
     int _y;
 };
